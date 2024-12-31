@@ -1,0 +1,42 @@
+html {
+    background-image: url("15651043409899006.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background: rgba(255, 255, 255, 0.74);
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: 'raleway';
+    padding: 20px;
+    border-radius: 10px q;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(187, 187, 169);
+    border: 10px;
+    border-color: blue;
+    border-style: double;
+}
+input[type=reset]:hover{
+    background-color: rgb(187, 187, 169);
+}
+input{
+    display: block;
+    width: 100%;
+}
+input[type=text]:hover{
+    background-color: rgb(187, 187, 169);
+}
+input[type=email]:focus{
+    background-color: rgb(187, 187, 169);
+}
+input[type=radio]{
+    display: inline;
+    width:1%;
+}
+input[type=checkbox]{
+    display: inline;
+    width: 1%;
+}
